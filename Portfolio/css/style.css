@@ -1,0 +1,24 @@
+.header{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;left: 0;
+    background-image: url("../img/master-informatique-lg-36795.png");
+	background-size: cover;
+	z-index: 5;
+	opacity: 0.;
+
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header .navbar .menu{
+    float: right;
+}
+
+.header .navbar .menu .ul{
+    list-style: none;
+}
