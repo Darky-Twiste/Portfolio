@@ -1,0 +1,190 @@
+/*
+font-family: 'Domine', serif;
+font-family: 'Goudy Bookletter 1911', serif;
+*/
+
+.header{
+	width: 100%;
+	height: 80%;
+	position: flex:
+	top: 0;left: 0;
+    background-image: url("../img/master-informatique-lg-36795.png");
+	background-size: cover;
+	z-index: 5;
+	opacity: 0.;
+
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header .navbar .menu{
+    float: right;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.header .navbar .menu ul{
+    list-style: none;
+    padding: 5;
+    margin: 0;
+}
+
+.header .navbar .menu ul li{
+    display: inline-block;
+    margin: 0 25px;
+}
+
+.header .navbar ul li a{
+    color: blue;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.header .home{
+    text-align: center;
+    color: red;
+    margin-top: 200px;
+}
+
+.header .home h1{
+    font-size: 70px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+.header .home a{
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    padding: 20px 20px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.header .container .button{
+         background-color: blue; 
+         border: none;
+         color: white;
+         padding: 20px 34px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 20px;
+         margin: 4px 2px;
+         cursor: pointer;
+         text-transform: uppercase;
+}
+
+/* Fin Header */
+
+.services{
+    padding: 120px0;
+} 
+
+.section-titre{
+    text-align: center;
+    color: blue;
+    text-transform: uppercase;
+    margin-top: 45px;
+}
+
+.section-title{
+    text-align: center;
+    color: deepskyblue;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
+.section-title-2{
+    text-align: center;
+    color: black;
+}
+
+.section-paragraphe{
+    text-align: center;
+    color: black;
+    margin-top: 25px;
+}
+
+.section-title-3{
+    text-align: center;
+    color: black;
+    margin-left: -700px;
+}
+
+.section-paragraphe-2{
+    text-align: center;
+    color: black;
+    margin-top: 25px;
+    margin-left: -700px;
+}
+
+.section-title-4{
+    text-align: center;
+    color: black;
+    margin-left: 600px;
+    margin-top: -120px;
+}
+
+.section-paragraphe-3{
+    text-align: center;
+    color: black;
+    margin-top: 25px;
+    margin-left: 600px;
+}
+
+/* Fin section */
+
+
+.formu{
+    text-align: center;
+    color: deepskyblue;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
+.formulaire{
+    text-align: center;
+    background-image: url("../img/Backgroung-contact-us.png");
+    background-size: cover;
+    height: 320px;
+    color: #ffffff;
+}
+
+.bodyleft{
+    margin-top: 40px;
+    margin-left: -700px;
+    font-size: 25px;
+}
+
+.bouton{
+  color: black;
+  font-size: 25px;
+  margin-right: 125px;
+  margin-top: 10px;
+}
+
+.bodyright{
+    margin-left: 600px;
+    margin-top: -200px;
+}
+
+/* Fin formulaire */
+
+
+footer{
+	background: #000000;
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	padding-top: 0px;
+	color: #ffffff;
+	font-size: 15px;
+}
