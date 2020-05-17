@@ -1,0 +1,192 @@
+.header{
+	width: 100%;
+	height: 80%;
+	position: flex:
+	top: 0;left: 0;
+    background-image: url("../img/master-informatique-lg-36795.png");
+	background-size: cover;
+	z-index: 5;
+	opacity: 0.;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header .navbar .menu{
+    float: right;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.header .home{
+    text-align: center;
+    color: red;
+    margin-top: 20px;
+}
+
+.header .home h1{
+    font-size: 70px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-top: -30px;
+    margin-bottom: 70px;
+}
+
+.header .home a{
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    padding: 20px 20px;
+    border-radius: 15px;
+    text-decoration: none;
+} 
+/* Détails du bouton */
+
+.header .container .button{
+    background-color: blue; 
+    border: none;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+/* Fin Header */
+
+.services{
+    padding: 120px0;
+} 
+
+.section-titre{
+    text-align: center;
+    color: blue;
+    text-transform: uppercase;
+    margin-top: 45px;
+}
+
+.section-title{
+    text-align: center;
+    color: deepskyblue;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
+.section-title-2{
+    text-align: center;
+    color: black;
+}
+
+.section-paragraphe{
+    text-align: center;
+    color: black;
+    margin-top: 25px;
+}
+
+
+/* Fin section */ /* Contenant les titres et toutes les parties ou il y a du texte */
+
+.paragraphe{
+    text-align: center;
+}
+
+.p1{
+    text-align: center;
+    font-size: 20px;
+}
+
+.p2{
+    text-align: center;
+    font-size: 20px;
+}
+
+.p3{
+    text-align: center;
+    font-size: 20px;
+}
+
+.video-responsive { 
+    overflow:hidden; 
+    padding-bottom:56.25%; 
+    position:relative; 
+    height:0;
+}
+
+.video-responsive iframe {
+    left:0; 
+    top:0; 
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.image{
+    background-image: url("../img/Python.png");
+    width: 390px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.img-responsive{
+    max-width : 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Fin projets */ /* Concerne toute la partie "Mes projets scolaire" */
+
+.formu{
+    text-align: center;
+    color: deepskyblue;
+    margin-top: 45px;
+    text-transform: uppercase;
+}
+
+.formulaire{
+    text-align: center;
+    background-image: url("../img/Backgroung-contact-us.png");
+    background-size: cover;
+    height: 470px;
+    color: #ffffff;
+}
+
+.form{
+    font-size: 25px;
+    text-align: center;
+}
+
+.bouton{
+  color: black;
+  font-size: 25px;
+  margin-right: center;
+}
+/* Fin formulaire */ /* Concerne toute la partie "Contactez moi" */ 
+
+
+
+footer{
+	background: #000000;
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	padding-top: 0px;
+	color: #ffffff;
+	font-size: 15px;
+}
+/* Fin Footer */
